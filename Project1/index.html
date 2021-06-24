@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Lesson 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script>
+        changeText = () =>
+            {
+                var p_element = document.querySelectorAll('.body-text');
+                p_element[0].innerHTML = "This is the main page...";
+                document.querySelector('body>button').innerText = "You pressed it!";
+                
+            }
+    </script>
+
+
+    <p class="body-text">This is the index page.</p>
+    <button onclick="changeText()">Press this button</button>
+    
+</body>
+</html>

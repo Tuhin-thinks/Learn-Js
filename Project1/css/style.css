@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(228, 228, 160);
+    margin:auto;
+}
+body button{
+    align-items:center;
+    justify-content: center;
+    position:relative;
+    margin-left:auto;
+    margin-right: auto;
+    border:5px solid black;
+    background-color:aquamarine;
+    border-color:black;
+    border-radius: 5px;
+    font-weight:light;
+}
+.body-text{
+    position:relative;
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
